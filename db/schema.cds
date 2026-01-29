@@ -1,7 +1,7 @@
-using {managed} from '@sap/cds/common';
+using { managed } from '@sap/cds/common';
 
 namespace sales;
 
-entity SalesOrderHeaders: managed {
+entity SalesOrderHeaders {
     key id: UUID;
 }
