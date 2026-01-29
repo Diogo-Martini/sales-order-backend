@@ -1,7 +1,7 @@
-using { sales.SalesOrderHeaders } from '../db/schema';
+using { sales } from '../db/schema';
 
 service Mainservice {
 
-    entity SalesOrderHeaders
-
+    entity SalesOrderHeaders as projection on sales.SalesOrderHeaders
+      
 }
